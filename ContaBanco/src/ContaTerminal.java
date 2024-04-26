@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
 
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
 
         int contaBancaria;
